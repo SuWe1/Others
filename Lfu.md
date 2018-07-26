@@ -1,4 +1,4 @@
-# lru(Least Frequently Used)算法 --最近最不常用置换算法
+# lfu(Least Frequently Used)算法 --最近最不常用置换算法
 移除最近时间内最少访问的节点，访问次数相同的比较访问时间的先后
 ```
 public class Lfu<K, V> {
